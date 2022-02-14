@@ -40,3 +40,4 @@ You are tasked to control the average color/mood of the image that you are color
 - All the commentaries are in markdown cells in the .ipynb file.
 - All the necessary files (such as "weights.pth" and "weights2.pth") are located in the .zip archive.
 - There are some examples of the inference in the notebook as well as the preprocessing of the training and validation sets.
+- The function "inference" accepts the model and an image as a numpy array and returns colorized image-tensor
