@@ -31,3 +31,12 @@ You are tasked to control the average color/mood of the image that you are color
 - Document the things you tried, what worked and did not. 
 - Update this README.md file to add instructions on how to run your code. (train, inference). 
 - Once you are done, zip the code, upload your solution.  
+
+## Instructions
+- The Jupiter notebook Colorization.ipynb contains the solution.
+- The architecture of the best model is described in the class Net2.
+- The input of the models for training should be a representative of the class ColorizeData.
+- Parameters of the basic and final models are located within the files "weights.pth" and "weights2.pth" respectively and should be uploaded before inference (the code for that is inside the cells immediately before the training cells).
+- All the commentaries are in markdown cells in the .ipynb file.
+- All the necessary files (such as "weights.pth" and "weights2.pth") are located in the .zip archive.
+- There are some examples of the inference in the notebook as well as the preprocessing of the training and validation sets.
